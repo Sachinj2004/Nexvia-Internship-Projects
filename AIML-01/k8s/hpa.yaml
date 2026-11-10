@@ -1,0 +1,31 @@
+# =============================================================================
+# Nexvia Horizontal Pod Autoscaler (HPA)
+#
+# METRICS SERVER REQUIREMENT:
+# 1. HPA requires the Kubernetes Metrics Server to collect CPU/Memory utilization.
+# 2. Minikube: run `minikube addons enable metrics-server`
+# 3. Docker Desktop / Cloud: run
+#    kubectl apply -f https://github.com/kubernetes-sigs/metrics-server/releases/latest/download/components.yaml
+# =============================================================================
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: nexvia-fraud-api-hpa
+  labels:
+    app: nexvia-fraud-api
+    tier: api
+    project: nexvia-fraud
+spec:
+  scaleTargetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: nexvia-fraud-api
+  minReplicas: 1
+  maxReplicas: 2
+  metrics:
+    - type: Resource
+      resource:
+        name: cpu
+        target:
+          type: Utilization
+          averageUtilization: 70

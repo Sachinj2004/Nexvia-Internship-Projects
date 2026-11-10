@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+*.dylib
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Data Files & Datasets (Strictly exclude raw/processed transaction data)
+data/
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.feather
+*.pkl
+
+# SQLite Databases & Feast Local Stores
+*.db
+*.sqlite
+*.sqlite3
+feature_store/data/
+*.registry
+
+# Model Artifacts (Exclude heavy binary models, allow .gitkeep)
+models/*
+!models/.gitkeep
+
+# Evaluation Outputs & Artifacts (Allow .gitkeep)
+outputs/*
+!outputs/.gitkeep
+
+# MLflow Tracking & Artifact Stores
+mlruns/
+.trash/
+
+# Secret / Credentials / Local Configuration
+.env
+.env.*
+*.pem
+*.key
+*.token
+credentials.json
+
+# Operating System & IDE Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs & Temporary Files
+*.log
+tmp/
+temp/

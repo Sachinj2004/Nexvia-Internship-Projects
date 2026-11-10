@@ -1,0 +1,17 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: nexvia-fraud-api-service
+  labels:
+    app: nexvia-fraud-api
+    tier: api
+    project: nexvia-fraud
+spec:
+  type: ClusterIP
+  selector:
+    app: nexvia-fraud-api
+  ports:
+    - name: http
+      port: 8000
+      targetPort: 8000
+      protocol: TCP

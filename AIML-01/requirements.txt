@@ -1,0 +1,12 @@
+pandas==2.2.3
+numpy==2.4.6
+scikit-learn==1.9.1
+joblib==1.6.0
+matplotlib==3.11.2
+seaborn==0.13.2
+xgboost==3.2.0
+mlflow==3.17.2
+streamlit==1.66.1
+evidently==0.7.23
+torch==2.15.0
+torch_geometric==2.8.1

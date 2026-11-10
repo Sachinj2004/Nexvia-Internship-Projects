@@ -1,0 +1,45 @@
+{
+    "model_name": "Logistic Regression Baseline",
+    "class_weight": "balanced",
+    "random_state": 42,
+    "train_transactions": 227845,
+    "test_transactions": 56962,
+    "pr_auc": 0.718971,
+    "roc_auc": 0.972083,
+    "precision": 0.060976,
+    "recall": 0.918367,
+    "f1_score": 0.114358,
+    "confusion_matrix": {
+        "true_negative": 55478,
+        "false_positive": 1386,
+        "false_negative": 8,
+        "true_positive": 90
+    },
+    "classification_report": {
+        "0": {
+            "precision": 0.9998558194859964,
+            "recall": 0.9756260551491277,
+            "f1-score": 0.9875923453493547,
+            "support": 56864.0
+        },
+        "1": {
+            "precision": 0.06097560975609756,
+            "recall": 0.9183673469387755,
+            "f1-score": 0.11435832274459974,
+            "support": 98.0
+        },
+        "accuracy": 0.9755275446789088,
+        "macro avg": {
+            "precision": 0.530415714621047,
+            "recall": 0.9469967010439516,
+            "f1-score": 0.5509753340469772,
+            "support": 56962.0
+        },
+        "weighted avg": {
+            "precision": 0.9982405275272602,
+            "recall": 0.9755275446789088,
+            "f1-score": 0.9860899940587528,
+            "support": 56962.0
+        }
+    }
+}

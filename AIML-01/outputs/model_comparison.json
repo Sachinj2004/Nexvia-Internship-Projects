@@ -1,0 +1,34 @@
+{
+    "metrics_comparison": {
+        "PR-AUC": {
+            "Logistic_Regression_Baseline": 0.718971,
+            "XGBoost": 0.868619,
+            "Delta": 0.149648
+        },
+        "ROC-AUC": {
+            "Logistic_Regression_Baseline": 0.972083,
+            "XGBoost": 0.979963,
+            "Delta": 0.00788
+        },
+        "Fraud_Precision": {
+            "Logistic_Regression_Baseline": 0.060976,
+            "XGBoost": 0.775701,
+            "Delta": 0.714725
+        },
+        "Fraud_Recall": {
+            "Logistic_Regression_Baseline": 0.918367,
+            "XGBoost": 0.846939,
+            "Delta": -0.071428
+        },
+        "Fraud_F1": {
+            "Logistic_Regression_Baseline": 0.114358,
+            "XGBoost": 0.809756,
+            "Delta": 0.695398
+        },
+        "False_Positives": {
+            "Logistic_Regression_Baseline": 1386,
+            "XGBoost": 24,
+            "Delta": -1362
+        }
+    }
+}

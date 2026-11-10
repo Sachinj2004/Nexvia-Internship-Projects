@@ -1,0 +1,45 @@
+{
+    "model_name": "XGBoost Classifier",
+    "scale_pos_weight": 577.29,
+    "random_state": 42,
+    "train_transactions": 227845,
+    "test_transactions": 56962,
+    "pr_auc": 0.868619,
+    "roc_auc": 0.979963,
+    "precision": 0.775701,
+    "recall": 0.846939,
+    "f1_score": 0.809756,
+    "confusion_matrix": {
+        "true_negative": 56840,
+        "false_positive": 24,
+        "false_negative": 15,
+        "true_positive": 83
+    },
+    "classification_report": {
+        "0": {
+            "precision": 0.9997361709612171,
+            "recall": 0.9995779403489027,
+            "f1-score": 0.9996570493936809,
+            "support": 56864.0
+        },
+        "1": {
+            "precision": 0.7757009345794392,
+            "recall": 0.8469387755102041,
+            "f1-score": 0.8097560975609757,
+            "support": 98.0
+        },
+        "accuracy": 0.9993153330290369,
+        "macro avg": {
+            "precision": 0.8877185527703282,
+            "recall": 0.9232583579295535,
+            "f1-score": 0.9047065734773283,
+            "support": 56962.0
+        },
+        "weighted avg": {
+            "precision": 0.9993507306121174,
+            "recall": 0.9993153330290369,
+            "f1-score": 0.9993303352108993,
+            "support": 56962.0
+        }
+    }
+}

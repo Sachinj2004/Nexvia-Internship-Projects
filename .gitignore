@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.dylib
+
+# Caches & Test Runners
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+.ipynb_checkpoints/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Operating System & IDE Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Large Raw Datasets (Strictly Excluded)
+AIML-01/data/raw/
+AIML-04/data/
+*.csv
+*.tsv
+*.h5
+*.feather
+
+# Local Runtime Databases & Tracking Caches (Allow Feast pre-generated sample databases)
+AIML-01/data/analyst_feedback.db
+AIML-01/mlflow.db
+mlruns/
+.trash/
+
+# Backups & Temporary Files
+*.backup
+*.bak
+*.tmp
+*.log
+temp/
+tmp/
+
+# Secrets, Credentials & Local Configs (Allow .env.example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+credentials.json

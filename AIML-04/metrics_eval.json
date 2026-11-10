@@ -1,0 +1,51 @@
+{
+  "configuration": {
+    "batch_size": 4,
+    "coco_to_kitti_mapping": {
+      "0": 1,
+      "2": 0,
+      "7": 3
+    },
+    "imgsz": 640,
+    "unsupported_kitti_classes": [
+      2
+    ]
+  },
+  "dataset_audit": {
+    "class_distribution": {
+      "Car": 6230,
+      "Cyclist": 306,
+      "People": 926,
+      "Truck": 198
+    },
+    "status": "PASSED",
+    "total_bounding_boxes": 7660,
+    "validation_images": 1496,
+    "validation_labels": 1496
+  },
+  "environment": {
+    "device": "mps",
+    "python_version": "3.11.18",
+    "torch_version": "2.14.1",
+    "ultralytics_version": "8.4.197",
+    "wandb_mode": "local_fallback"
+  },
+  "metrics": {
+    "aggregate": {
+      "map50": 0.343,
+      "map50_95": 0.18,
+      "precision": 0.389,
+      "recall": 0.344
+    },
+    "cyclist_unsupported_note": "KITTI class 2 (Cyclist) is not supported by standard COCO-pretrained YOLOv8n. Its 0.0 AP is included in the aggregate 4-class mean as per benchmark standards.",
+    "per_class": {
+      "Cyclist": {
+        "class_id": 2,
+        "note": "Unsupported by the COCO-pretrained model; ground truth only (306 KITTI validation annotations).",
+        "supported_by_coco_model": false
+      }
+    }
+  },
+  "timestamp": 1794206248.4267032,
+  "timestamp_iso": "2026-11-09T06:37:28Z"
+}

@@ -1,0 +1,194 @@
+{
+    "dataset_drift": true,
+    "drift_share": 1.0,
+    "number_of_drifted_columns": 30,
+    "number_of_columns": 30,
+    "drift_by_columns": {
+        "Time": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V1": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V2": {
+            "drift_detected": true,
+            "drift_score": 1e-06,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V3": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V4": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V5": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V6": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V7": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V8": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V9": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V10": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V11": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V12": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V13": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V14": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V15": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V16": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V17": {
+            "drift_detected": true,
+            "drift_score": 1e-06,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V18": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V19": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V20": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V21": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V22": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V23": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V24": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V25": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V26": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V27": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "V28": {
+            "drift_detected": true,
+            "drift_score": 0.0,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        },
+        "Amount": {
+            "drift_detected": true,
+            "drift_score": 0.000848,
+            "threshold": 0.05,
+            "stat_test": "K-S p_value"
+        }
+    },
+    "stat_test": "Kolmogorov-Smirnov / Wasserstein",
+    "evaluated_features": 30,
+    "reference_rows": 1000,
+    "current_rows": 32,
+    "timestamp": "2026-11-10T07:02:55.476195+00:00",
+    "html_report_path": "/Users/sachinsahebraojadhav/my intern/outputs/drift_report.html"
+}

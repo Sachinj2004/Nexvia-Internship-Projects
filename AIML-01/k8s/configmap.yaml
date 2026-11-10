@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nexvia-api-config
+  labels:
+    app: nexvia-fraud-api
+    tier: api
+    project: nexvia-fraud
+data:
+  MODEL_PATH: "/app/models/xgboost_pipeline.joblib"
+  DEFAULT_THRESHOLD: "0.5"
+  PORT: "8000"
+  HOST: "0.0.0.0"
+  WORKERS: "1"
+  LOG_LEVEL: "INFO"
